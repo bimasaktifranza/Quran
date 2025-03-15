@@ -12,7 +12,7 @@ function Asmaulhusna() {
 
     return (
         <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-6 relative">
-            {/* Background Gradient Overlay */}
+            {/* Background */}
             <div className="absolute inset-0 bg-gradient-to-r from-teal-900 to-gray-800 opacity-80"></div>
             
             {/* Header */}
@@ -26,7 +26,7 @@ function Asmaulhusna() {
             </header>
 
 
-            {/* Asmaul Husna List */}
+            {/* Asmaul Husna */}
             <div className="w-full max-w-5xl bg-gray-800 p-8 rounded-2xl shadow-2xl border border-teal-500 relative z-10">
                 <ul className="w-full space-y-4">
                     {asmaulhusna.map((item, index) => (
@@ -40,7 +40,7 @@ function Asmaulhusna() {
                 </ul>
             </div>
 
-            {/* Decorative Elements */}
+            
             <div className="absolute top-0 left-0 w-32 h-32 bg-yellow-500 opacity-20 blur-3xl"></div>
             <div className="absolute bottom-0 right-0 w-40 h-40 bg-teal-500 opacity-20 blur-3xl"></div>
         </div>
