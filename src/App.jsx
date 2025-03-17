@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 function Quran() {
     const [surah, setSurah] = useState([]);
     const navigasi = useNavigate();
